@@ -1,0 +1,52 @@
+{
+  "name": "react-typescript-template",
+  "version": "1.0.0",
+  "description": "The empty template for a React-Redux Typescript Applications",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.3",
+    "autoprefixer": "^9.7.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "test": "Test",
+    "Start": "webpack-dev-server --mode development --hot",
+    "Start:production": "webpack-dev-server --mode production",
+    "Build": "webpack --mode production --progress",
+    "Lint": "tslint -p . && prettier --check 'src/**/*.{ts,tsx,css}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzhbankov/react-typescript-template.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "typescript",
+    "template"
+  ],
+  "author": "Yaroslav Zhbankov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yzhbankov/react-typescript-template/issues"
+  },
+  "homepage": "https://github.com/yzhbankov/react-typescript-template#readme"
+}
